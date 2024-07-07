@@ -36,7 +36,7 @@ you need to clone the repository and ensure Docker and Docker Compose are instal
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/GiladSharabi/gamerden.git
+    git clone https://github.com/ItamarBarHod/GamerDen.git
     cd gamerden
     ```
     
