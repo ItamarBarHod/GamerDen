@@ -1,0 +1,543 @@
+[
+    {
+        "email": "user1@example.com",
+        "discord": "user1discord",
+        "password": "asd",
+        "username": "user1",
+        "dob": "2000-07-05T21:00:00.000Z",
+        "country": "Australia",
+        "gender": "Male",
+        "languages": [
+            "English"
+        ],
+        "bio": "Enthusiastic gamer who loves RPGs and strategy games.",
+        "rating": 4.5,
+        "rating_count": 1,
+        "preferences": {
+            "region": "US East",
+            "voice": true,
+            "platform": [
+                "PC",
+                "Playstation"
+            ],
+            "teammate_platform": [
+                "PC",
+                "Xbox",
+                "Playstation"
+            ],
+            "preferred_gender": "Both",
+            "min_age": 18,
+            "max_age": 50,
+            "games": [
+                3,
+                10,
+                27,
+                32,
+                46
+            ]
+        }
+    },
+    {
+        "email": "user2@example.com",
+        "discord": "user2discord",
+        "password": "asd",
+        "username": "user2",
+        "dob": "1985-08-12T21:00:00.000Z",
+        "country": "Canada",
+        "gender": "Female",
+        "languages": [
+            "French"
+        ],
+        "bio": "Casual gamer enjoying open world adventures.",
+        "rating": 3.7,
+        "rating_count": 1,
+        "preferences": {
+            "region": "Europe",
+            "voice": false,
+            "platform": [
+                "Xbox",
+                "Playstation"
+            ],
+            "teammate_platform": [
+                "PC",
+                "Xbox"
+            ],
+            "preferred_gender": "Female",
+            "min_age": 25,
+            "max_age": 45,
+            "games": [
+                3,
+                10,
+                27,
+                32,
+                46
+            ]
+        }
+    },
+    {
+        "email": "user3@example.com",
+        "discord": "user3discord",
+        "password": "asd",
+        "username": "user3",
+        "dob": "1975-05-20T21:00:00.000Z",
+        "country": "India",
+        "gender": "Male",
+        "languages": [
+            "Hindi"
+        ],
+        "bio": "Competitive gamer focused on FPS games.",
+        "rating": 4.2,
+        "rating_count": 1,
+        "preferences": {
+            "region": "Asia East",
+            "voice": true,
+            "platform": [
+                "PC"
+            ],
+            "teammate_platform": [
+                "PC",
+                "Xbox"
+            ],
+            "preferred_gender": "Both",
+            "min_age": 20,
+            "max_age": 35,
+            "games": [
+                4,
+                9,
+                17,
+                20,
+                31,
+                37,
+                45
+            ]
+        }
+    },
+    {
+        "email": "user4@example.com",
+        "discord": "user4discord",
+        "password": "asd",
+        "username": "user4",
+        "dob": "1990-10-15T21:00:00.000Z",
+        "country": "Germany",
+        "gender": "Female",
+        "languages": [
+            "German"
+        ],
+        "bio": "Strategy game lover with a passion for historical settings.",
+        "rating": 4.0,
+        "rating_count": 1,
+        "preferences": {
+            "region": "Europe",
+            "voice": true,
+            "platform": [
+                "PC",
+                "Playstation"
+            ],
+            "teammate_platform": [
+                "PC",
+                "Playstation"
+            ],
+            "preferred_gender": "Male",
+            "min_age": 18,
+            "max_age": 40,
+            "games": [
+                1,
+                5,
+                12,
+                23,
+                28,
+                33,
+                36,
+                47
+            ]
+        }
+    },
+    {
+        "email": "user5@example.com",
+        "discord": "user5discord",
+        "password": "asd",
+        "username": "user5",
+        "dob": "1960-01-02T21:00:00.000Z",
+        "country": "Brazil",
+        "gender": "Male",
+        "languages": [
+            "Portuguese"
+        ],
+        "bio": "Retro gamer who enjoys classic titles.",
+        "rating": 3.9,
+        "rating_count": 1,
+        "preferences": {
+            "region": "South America",
+            "voice": false,
+            "platform": [
+                "PC",
+                "Xbox"
+            ],
+            "teammate_platform": [
+                "PC",
+                "Playstation"
+            ],
+            "preferred_gender": "Both",
+            "min_age": 30,
+            "max_age": 60,
+            "games": [
+                7,
+                13,
+                18,
+                24,
+                38,
+                42,
+                49
+            ]
+        }
+    },
+    {
+        "email": "user6@example.com",
+        "discord": "user6discord",
+        "password": "asd",
+        "username": "user6",
+        "dob": "1980-11-25T21:00:00.000Z",
+        "country": "Japan",
+        "gender": "Female",
+        "languages": [
+            "Japanese"
+        ],
+        "bio": "Anime fan and JRPG enthusiast.",
+        "rating": 4.7,
+        "rating_count": 1,
+        "preferences": {
+            "region": "Asia East",
+            "voice": true,
+            "platform": [
+                "Playstation"
+            ],
+            "teammate_platform": [
+                "PC",
+                "Playstation"
+            ],
+            "preferred_gender": "Male",
+            "min_age": 20,
+            "max_age": 40,
+            "games": [
+                8,
+                14,
+                21,
+                25,
+                30,
+                43
+            ]
+        }
+    },
+    {
+        "email": "user7@example.com",
+        "discord": "user7discord",
+        "password": "asd",
+        "username": "user7",
+        "dob": "1995-02-14T21:00:00.000Z",
+        "country": "France",
+        "gender": "Male",
+        "languages": [
+            "French"
+        ],
+        "bio": "FPS game player with a love for competitive gaming.",
+        "rating": 3.5,
+        "rating_count": 1,
+        "preferences": {
+            "region": "Europe",
+            "voice": true,
+            "platform": [
+                "PC",
+                "Xbox"
+            ],
+            "teammate_platform": [
+                "PC",
+                "Xbox"
+            ],
+            "preferred_gender": "Both",
+            "min_age": 18,
+            "max_age": 35,
+            "games": [
+                11,
+                16,
+                26,
+                34,
+                40,
+                48
+            ]
+        }
+    },
+    {
+        "email": "user8@example.com",
+        "discord": "user8discord",
+        "password": "asd",
+        "username": "user8",
+        "dob": "1998-06-30T21:00:00.000Z",
+        "country": "Italy",
+        "gender": "Female",
+        "languages": [
+            "Italian"
+        ],
+        "bio": "Loves puzzle games and mystery adventures.",
+        "rating": 4.4,
+        "rating_count": 1,
+        "preferences": {
+            "region": "Europe",
+            "voice": false,
+            "platform": [
+                "Playstation",
+                "Xbox"
+            ],
+            "teammate_platform": [
+                "Playstation",
+                "Xbox"
+            ],
+            "preferred_gender": "Both",
+            "min_age": 18,
+            "max_age": 40,
+            "games": [
+                19,
+                29,
+                35,
+                44,
+                50
+            ]
+        }
+    },
+    {
+        "email": "user9@example.com",
+        "discord": "user9discord",
+        "password": "asd",
+        "username": "user9",
+        "dob": "1987-04-10T21:00:00.000Z",
+        "country": "United States",
+        "gender": "Male",
+        "languages": [
+            "English"
+        ],
+        "bio": "Action game fan who loves co-op multiplayer.",
+        "rating": 3.8,
+        "rating_count": 1,
+        "preferences": {
+            "region": "US West",
+            "voice": true,
+            "platform": [
+                "PC",
+                "Xbox"
+            ],
+            "teammate_platform": [
+                "PC",
+                "Xbox"
+            ],
+            "preferred_gender": "Both",
+            "min_age": 21,
+            "max_age": 35,
+            "games": [
+                1,
+                3,
+                6,
+                9,
+                15,
+                20,
+                27,
+                32,
+                38
+            ]
+        }
+    },
+    {
+        "email": "user10@example.com",
+        "discord": "user10discord",
+        "password": "asd",
+        "username": "user10",
+        "dob": "1993-03-01T21:00:00.000Z",
+        "country": "South Africa",
+        "gender": "Female",
+        "languages": [
+            "English"
+        ],
+        "bio": "Loves exploring open worlds and creating stories.",
+        "rating": 4.6,
+        "rating_count": 1,
+        "preferences": {
+            "region": "Africa",
+            "voice": false,
+            "platform": [
+                "PC",
+                "Playstation"
+            ],
+            "teammate_platform": [
+                "PC",
+                "Playstation"
+            ],
+            "preferred_gender": "Both",
+            "min_age": 18,
+            "max_age": 35,
+            "games": [
+                2,
+                4,
+                7,
+                11,
+                17,
+                22,
+                31,
+                37,
+                42
+            ]
+        }
+    },
+    {
+        "email": "user11@example.com",
+        "discord": "user11discord",
+        "password": "asd",
+        "username": "user11",
+        "dob": "1972-09-18T21:00:00.000Z",
+        "country": "United Kingdom",
+        "gender": "Male",
+        "languages": [
+            "English"
+        ],
+        "bio": "Racing game enthusiast with a love for simulators.",
+        "rating": 4.3,
+        "rating_count": 1,
+        "preferences": {
+            "region": "Europe",
+            "voice": true,
+            "platform": [
+                "PC"
+            ],
+            "teammate_platform": [
+                "PC",
+                "Xbox"
+            ],
+            "preferred_gender": "Both",
+            "min_age": 30,
+            "max_age": 50,
+            "games": [
+                5,
+                8,
+                12,
+                18,
+                23,
+                28,
+                33,
+                39,
+                46
+            ]
+        }
+    },
+    {
+        "email": "user12@example.com",
+        "discord": "user12discord",
+        "password": "asd",
+        "username": "user12",
+        "dob": "1991-07-07T21:00:00.000Z",
+        "country": "Russia",
+        "gender": "Female",
+        "languages": [
+            "Russian"
+        ],
+        "bio": "MMORPG player and raid leader.",
+        "rating": 4.1,
+        "rating_count": 1,
+        "preferences": {
+            "region": "Europe",
+            "voice": false,
+            "platform": [
+                "PC"
+            ],
+            "teammate_platform": [
+                "PC"
+            ],
+            "preferred_gender": "Both",
+            "min_age": 18,
+            "max_age": 35,
+            "games": [
+                10,
+                13,
+                19,
+                24,
+                30,
+                36,
+                43,
+                47
+            ]
+        }
+    },
+    {
+        "email": "user13@example.com",
+        "discord": "user13discord",
+        "password": "asd",
+        "username": "user13",
+        "dob": "2001-12-21T21:00:00.000Z",
+        "country": "China",
+        "gender": "Male",
+        "languages": [
+            "Chinese"
+        ],
+        "bio": "Loves Xbox games and competitive online play.",
+        "rating": 3.6,
+        "rating_count": 1,
+        "preferences": {
+            "region": "Asia East",
+            "voice": true,
+            "platform": [
+                "Xbox"
+            ],
+            "teammate_platform": [
+                "Xbox"
+            ],
+            "preferred_gender": "Both",
+            "min_age": 18,
+            "max_age": 25,
+            "games": [
+                14,
+                16,
+                21,
+                25,
+                34,
+                40,
+                45,
+                48
+            ]
+        }
+    },
+    {
+        "email": "user14@example.com",
+        "discord": "user14discord",
+        "password": "asd",
+        "username": "user14",
+        "dob": "2000-10-15T21:00:00.000Z",
+        "country": "Japan",
+        "gender": "Female",
+        "languages": [
+            "Japanese"
+        ],
+        "bio": "Enjoys strategy games and visual novels.",
+        "rating": 4.2,
+        "rating_count": 1,
+        "preferences": {
+            "region": "Asia East",
+            "voice": false,
+            "platform": [
+                "PC",
+                "Xbox"
+            ],
+            "teammate_platform": [
+                "PC",
+                "Xbox"
+            ],
+            "preferred_gender": "Both",
+            "min_age": 18,
+            "max_age": 30,
+            "games": [
+                26,
+                29,
+                35,
+                41,
+                44,
+                49,
+                50
+            ]
+        }
+    }
+]

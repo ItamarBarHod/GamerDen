@@ -1,0 +1,3 @@
+# docker ignore
+node_module
+uploads

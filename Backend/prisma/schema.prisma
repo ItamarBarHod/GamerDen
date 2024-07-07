@@ -1,0 +1,60 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           Int              @id @default(autoincrement())
+  email        String           @unique
+  discord      String
+  password     String
+  username     String           @unique
+  dob          DateTime
+  created_at   DateTime         @default(now())
+  country      String
+  gender       Gender
+  languages    String[]
+  bio          String           @default("No Bio Available")
+  avatar       String?
+  rating       Float            @default(0)
+  rating_count Int              @default(0)
+  preferences  UserPreferences?
+}
+
+model UserPreferences {
+  id                Int        @id @default(autoincrement())
+  region            String     @default("")
+  voice             Boolean    @default(false)
+  platform          Platform[]
+  teammate_platform Platform[]
+  preferred_gender  Gender     @default(None)
+  min_age           Int        @default(18)
+  max_age           Int        @default(100)
+  user              User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId            Int        @unique
+  games             Game[]     @relation("UserPreferencesGames")
+}
+
+model Game {
+  id                Int              @id @default(autoincrement())
+  name              String
+  cover             String
+  userPreferences   UserPreferences[] @relation("UserPreferencesGames")
+}
+
+enum Gender {
+  None
+  Male
+  Female
+  Both
+}
+
+enum Platform {
+  PC
+  Xbox
+  Playstation
+}
