@@ -66,7 +66,7 @@ you need to clone the repository and ensure Docker and Docker Compose are instal
     - **CLIENT_ID** and **IGDB_AUTHENTICATION_TOKEN** can be obtained from the [Twitch Developer Portal](https://dev.twitch.tv/console/apps/create).
 
 3. **Run the Application:**
-    Navigate to the project directory and run the following commands:
+    Navigate to the project directory and run the following command:
 
     ```bash
     docker-compose up -d
