@@ -69,7 +69,6 @@ you need to clone the repository and ensure Docker and Docker Compose are instal
     Navigate to the project directory and run the following commands:
 
     ```bash
-    docker-compose build
     docker-compose up -d
     ```
 
