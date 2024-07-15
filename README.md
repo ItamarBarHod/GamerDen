@@ -69,7 +69,7 @@ you need to clone the repository and ensure Docker and Docker Compose are instal
     Navigate to the project directory and run the following command:
 
     ```bash
-    docker-compose up -d
+    docker-compose up
     ```
 
     This will build and run GamerDen in Docker containers, allowing for easy deployment and isolation.
