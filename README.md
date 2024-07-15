@@ -74,7 +74,7 @@ you need to clone the repository and ensure Docker and Docker Compose are instal
 
     This will build and run GamerDen in Docker containers, allowing for easy deployment and isolation.
 
-## Search partners:
+## Search Gaming Partners:
 [![Search](https://i.postimg.cc/PxHC96RF/1.png)](https://postimg.cc/PL6f8Mhm)
 
 [![Partners Found](https://i.postimg.cc/QC4VBjxR/2.png)](https://postimg.cc/RJtvy5tR)
