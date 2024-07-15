@@ -37,7 +37,7 @@ you need to clone the repository and ensure Docker and Docker Compose are instal
 
     ```bash
     git clone https://github.com/ItamarBarHod/GamerDen.git
-    cd gamerden
+    cd GamerDen
     ```
     
 2. **Create the `.env` File:**
